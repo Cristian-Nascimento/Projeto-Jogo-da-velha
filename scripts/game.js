@@ -34,7 +34,9 @@ function isWin() {
         let pos1 = seq[0];
         let pos2 = seq[1];
         let pos3 = seq[2];
-        if (board[pos1] == board[pos2] && board[pos1] == board[pos3] && board[pos1] != '') {
+        if (board[pos1] == board[pos2] &&
+            board[pos1] == board[pos3] &&
+            board[pos1] != '') {
             return true;
         }
     }

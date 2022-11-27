@@ -22,6 +22,6 @@ function handleClick(event) {
 
 function updateSquares(position) {
     let square = document.qetElementById(position.toString());
-    let symbol = board[position]
-    square.innerHTML = `<div class='${symbol}'></div>`;
+    let symbols = board[position]
+    square.innerHTML = `<div class='${symbols}'></div>`;
 }
